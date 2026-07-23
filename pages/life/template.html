@@ -1,0 +1,26 @@
+<section class="content-section">
+  <h2 class="section-title" data-text="title"></h2>
+  <p class="section-desc" data-text="description"></p>
+
+  <h3 class="subhead">Hobbies</h3>
+  <div class="chip-row">
+    <template data-repeat="hobbies">
+      <span class="chip" data-text="."></span>
+    </template>
+  </div>
+
+  <div class="ig-header">
+    <h3 class="subhead" style="margin:0;">@ Instagram</h3>
+    <a class="ig-follow" data-attr-href="instagramUrl">Follow ›</a>
+  </div>
+  <div class="ig-frame">
+    <div class="ig-grid">
+      <template data-repeat="instagramPhotos">
+        <div class="ig-photo" data-thumb=".">
+          <svg viewBox="0 0 72 72" class="ig-photo-svg" data-striped-svg></svg>
+        </div>
+      </template>
+    </div>
+  </div>
+  <p class="ig-note" data-text="note"></p>
+</section>

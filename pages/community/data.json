@@ -1,0 +1,93 @@
+{
+  "title": "Community",
+  "description": "I lead one of the largest developer communities in Pakistan, decentralizing mentorship and technical resources into 2nd-tier cities to bridge the urban-rural tech divide.",
+  "jobs": [
+    {
+      "role": "Community Manager",
+      "org": "Google Developer Group Live Pakistan",
+      "orgUrl": "https://gdglivepakistan.com/",
+      "period": "Jul 2021 — Present",
+      "details": "Google Developer Group (GDG) Live Pakistan is one of the largest and most active GDG chapters in the region. A nationwide tech community of 50,000+ developers, students, and technology enthusiasts that we have been building to connect digital Pakistan through events, workshops, and knowledge-sharing around Google technologies.\nAs a community lead, I have led programs where we have;\n→ Organized 70+ meetups, trainings, and technical sessions featuring speakers from Google, major tech companies, and local startups.\n→ Established partnerships with multiple organizations including universities, startups, accelerators, and government programs\n→ Onboarded Google Developer Experts, and industry leaders to support chapter activities\n→ Built and managed a four-department team (Events, Design, Marketing, Outreach) to scale operations nationally\n→ Championed diversity and inclusion initiatives, driving a 30-50% participation and engagement from female and underrepresented groups\n→ Trained 12000+ community members and startups, helping them advance their skills and careers in tech\n→ Executed developer upskilling programs like AI Seekho, Cloud Seekho and Android Study Jams, resulting in 10,000+ developers gaining hands-on experience\n→ Led flagship events like DevFest, attracting attendees with top speakers from Google and the wider tech industry"
+    },
+    {
+      "role": "Founder & Community Manager",
+      "org": "Flutter Lahore",
+      "orgUrl": "https://linktr.ee/flutterlahore",
+      "period": "Feb 2022 — Present",
+      "details": "Flutter Lahore is a local community meetup group with a focus on helping developers in Flutter, Firebase, and Google Cloud\n→ Leading the chapter and organizing different meetups and workshops\n→ Building a local community ecosystem for Flutter developers in Lahore & surroundings"
+    },
+    {
+      "role": "Co-founder",
+      "org": "Sahiwal Tech Community",
+      "orgUrl": "https://linktr.ee/sahiwaltechcommunity",
+      "period": "Jun 2023 — Present",
+      "details": "Founded a local tech community in Sahiwal to provide mentorship, resources, and networking opportunities for aspiring developers in the region."
+    },
+    {
+      "role": "GDSC Lead",
+      "org": "Google Developer Student Club - PUCIT",
+      "orgUrl": "https://linktr.ee/gdscpucit",
+      "period": "Jul 2020 — Jul 2021",
+      "details": "Google Developer Student Clubs (GDSC) are university based community groups for students interested in Google developer technologies.\n→ Lead a team for planning & hosting different workshops\n→ Made an impact on students by guiding & supporting them to learn new skills and get hands-on experience with Google Technologies."
+    }
+  ],
+  "talks": [
+    {
+      "title": "Building a career that travels with you",
+      "venue": "Code for Pakistan",
+      "date": "May 2025",
+      "format": "Talk",
+      "mode": "Online",
+      "image": "pages/community/images/building_a_career.png"
+    },
+    {
+      "title": "Navigating Routes in Flutter ft. Web",
+      "venue": "Flutter Forward Extended Karachi",
+      "date": "March 2023",
+      "format": "Talk",
+      "mode": "Karachi, Pakistan",
+      "image": "pages/community/images/navigating_routes_in_flutter.png"
+    },
+    {
+      "title": "How to successfully run your chapter?",
+      "venue": "GDSC Summit Pakistan",
+      "date": "Dec 2022",
+      "format": "Talk",
+      "mode": "Lahore, Pakistan",
+      "image": "pages/community/images/run_your_chapter.png"
+    },
+    {
+      "title": "Flutter x Firebase",
+      "venue": "Flutter Bootcamp by GDSC Pakistan",
+      "date": "Jan 2022",
+      "format": "Workshop",
+      "mode": "Online",
+      "image": "pages/community/images/flutterxfirebase.png"
+    }
+  ],
+  "events": [
+    {
+      "title": "AI Seekho 2026",
+      "link": "#",
+      "org": "Google Developer Group Live Pakistan",
+      "orgUrl": "https://gdglivepakistan.com/",
+      "period": "2026",
+      "details": "A nationwide AI upskilling program for developers, students, and enthusiasts to learn about AI and its applications through hands-on workshops, mentorship, and project-based learning via hackathonds.",
+      "image": "pages/community/images/aiseekho2026.png"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Navigating routes in Flutter ft. web",
+      "desc": "A deep dive into Flutter's navigation system and its implications for web applications.",
+      "image": "pages/community/images/navigating_routes_in_flutter.png"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Flutter x Firebase",
+      "desc": "A hands-on workshop on building a mobile application using Flutter and Firebase.",
+      "image": "pages/community/images/flutterxfirebase.png"
+    }
+  ]
+}

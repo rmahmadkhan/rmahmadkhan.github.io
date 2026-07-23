@@ -1,0 +1,91 @@
+<section class="content-section">
+  <h2 class="section-title" data-text="title"></h2>
+  <p class="section-desc" data-text="description"></p>
+
+  <h3 class="subhead">Where I've Worked</h3>
+  <div class="accordion-list">
+    <template data-repeat="jobs">
+      <div class="accordion-item">
+        <div class="accordion-header" role="button" tabindex="0">
+          <div><span class="accordion-role" data-text="role"></span><span class="accordion-org"> — </span><a class="accordion-org accordion-org-link" data-text="org" data-attr-href="orgUrl" target="_blank" rel="noopener"></a></div>
+          <div class="accordion-meta"><span class="accordion-period" data-text="period"></span><span class="accordion-chevron">⌃</span></div>
+        </div>
+        <div class="accordion-body" style="display:none;">
+          <p data-text="details"></p>
+        </div>
+      </div>
+    </template>
+  </div>
+
+  <h3 class="subhead">Spoken At</h3>
+  <div class="carousel">
+    <button type="button" class="carousel-nav carousel-prev" aria-label="Previous talk">‹</button>
+    <div class="talk-list-big carousel-track">
+      <template data-repeat="talks">
+        <div class="talk-card-big" data-thumb="image">
+          <svg viewBox="0 0 72 72" class="talk-thumb-big" data-striped-svg></svg>
+          <div>
+            <h4 class="talk-title" data-text="title"></h4>
+            <p class="talk-venue" data-text="venue"></p>
+            <p class="talk-date" data-text="date"></p>
+            <div class="talk-tags">
+              <span class="chip talk-tag" data-text="format"></span>
+              <span class="chip talk-tag" data-text="mode"></span>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+    <button type="button" class="carousel-nav carousel-next" aria-label="Next talk">›</button>
+  </div>
+
+  <h3 class="subhead">Programs & Events</h3>
+  <div class="talk-list">
+    <template data-repeat="events">
+      <div class="program-card">
+        <div class="program-row" data-thumb="image">
+          <svg viewBox="0 0 72 72" class="program-thumb" data-striped-svg></svg>
+          <div class="program-body">
+            <h4 class="talk-title"><a class="program-title-link" data-text="title" data-attr-href="link" target="_blank" rel="noopener"></a></h4>
+            <p class="talk-venue"><a class="accordion-org-link" data-text="org" data-attr-href="orgUrl" target="_blank" rel="noopener"></a> — <span data-text="period"></span></p>
+            <p class="talk-desc" data-text="details"></p>
+          </div>
+        </div>
+      </div>
+    </template>
+  </div>
+
+  <h3 class="subhead">Content</h3>
+  <div class="label-row">Blogs</div>
+  <div class="carousel">
+    <button type="button" class="carousel-nav carousel-prev" aria-label="Previous blog">‹</button>
+    <div class="media-grid carousel-track">
+      <template data-repeat="blogs">
+        <div class="media-card-big" data-thumb="image">
+          <svg viewBox="0 0 72 72" class="media-thumb-big" data-striped-svg></svg>
+          <div class="media-body">
+            <h4 class="media-title" data-text="title"></h4>
+            <p class="media-desc" data-text="desc"></p>
+          </div>
+        </div>
+      </template>
+    </div>
+    <button type="button" class="carousel-nav carousel-next" aria-label="Next blog">›</button>
+  </div>
+  <div class="label-row">Videos</div>
+  <div class="carousel">
+    <button type="button" class="carousel-nav carousel-prev" aria-label="Previous video">‹</button>
+    <div class="media-grid carousel-track">
+      <template data-repeat="videos">
+        <div class="media-card-big" data-thumb="image">
+          <svg viewBox="0 0 72 72" class="media-thumb-big" data-striped-svg></svg>
+          <div class="media-body">
+            <h4 class="media-title" data-text="title"></h4>
+            <p class="media-desc" data-text="desc"></p>
+          </div>
+        </div>
+      </template>
+    </div>
+    <button type="button" class="carousel-nav carousel-next" aria-label="Next video">›</button>
+  </div>
+</section>

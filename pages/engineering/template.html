@@ -1,0 +1,43 @@
+<section class="content-section">
+  <h2 class="section-title" data-text="title"></h2>
+  <p class="section-desc" data-text="description"></p>
+
+  <h3 class="subhead">Skills</h3>
+  <div class="chip-row">
+    <template data-repeat="skills">
+      <span class="chip" data-text="."></span>
+    </template>
+  </div>
+
+  <h3 class="subhead">Where I've Worked</h3>
+  <div class="accordion-list">
+    <template data-repeat="jobs">
+      <div class="accordion-item">
+        <div class="accordion-header" role="button" tabindex="0">
+          <div><span class="accordion-role" data-text="role"></span><span class="accordion-org"> — </span><a class="accordion-org accordion-org-link" data-text="org" data-attr-href="orgUrl" target="_blank" rel="noopener"></a></div>
+          <div class="accordion-meta"><span class="accordion-period" data-text="period"></span><span class="accordion-chevron">⌃</span></div>
+        </div>
+        <div class="accordion-body" style="display:none;">
+          <p data-text="details"></p>
+        </div>
+      </div>
+    </template>
+  </div>
+
+  <h3 class="subhead">Projects</h3>
+  <div class="carousel">
+    <button type="button" class="carousel-nav carousel-prev" aria-label="Previous project">‹</button>
+    <div class="project-list carousel-track">
+      <template data-repeat="projects">
+        <div class="project-card" data-thumb="image">
+          <svg viewBox="0 0 72 72" class="project-thumb" data-striped-svg></svg>
+          <div>
+            <h4 class="project-title" data-text="title"></h4>
+            <p class="project-desc" data-text="desc"></p>
+          </div>
+        </div>
+      </template>
+    </div>
+    <button type="button" class="carousel-nav carousel-next" aria-label="Next project">›</button>
+  </div>
+</section>

@@ -1,0 +1,82 @@
+{
+  "title": "Software Engineering",
+  "description": "As a full-stack engineer specializing in mobile, web and backend architectures, I've focused on building high-performance, scalable applications — optimizing complex UI constraints and state management for seamless experiences at scale.",
+  "skills": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Swift",
+    "Kotlin",
+    "Dart",
+    "Flutter",
+    "Android",
+    "iOS",
+    "React",
+    "Node.js",
+    "GraphQL",
+    "Firebase",
+    "Git",
+    "GitHub Actions",
+    "Jupyter Notebooks",
+    "Docker",
+    "CI/CD",
+    "System Design"
+  ],
+  "jobs": [
+    {
+      "role": "Software Engineer",
+      "org": "Stella Stays",
+      "orgUrl": "https://stellastays.com",
+      "period": "Jan 2025 — Present",
+      "details": "→ Leading the development and maintenance of mobile apps to power Stella Stays' vision for the future of living\n→ Modernizing legacy projects while architecting new, state-of-the-art mobile apps with a focus on scalability and user experience\n→ Implementing best practices for performance, security, and long-term maintainability across the mobile stack"
+    },
+    {
+      "role": "Senior Software Engineer",
+      "org": "RĀNA",
+      "orgUrl": "https://ranadev.io",
+      "period": "Jan 2024 — Sep 2024",
+      "details": "→ Led the development of high-performance geofencing & time tracking mobile app and web dashboard using Flutter & Node.js\n→ Optimized the apps for Android and iOS platforms to ensure seamless performance for background tasks\n→ Implemented robust security measures to protect sensitive location and time data\n→ Created a design system that enhanced reusability, streamlined development, and ensured a cohesive user experience\n→ Provided technical leadership and mentorship to junior developers, fostering a collaborative and innovative work environment"
+    },
+    {
+      "role": "Software Engineer",
+      "org": "Jaldi",
+      "orgUrl": "https://www.jalditech.com",
+      "period": "Mar 2022 — Dec 2023",
+      "details": "→ Deliver high-quality, robust production code for Jaldi's iOS, Android & web apps in Flutter & Python\n→ Build a simple and easy-to-use sales crm allowing managers to reduce cold calling admin work by 80%\n→ Played a pivotal role in revamping the mvp and later launching in production resulting in increase in paying orgs by over 900%\n→ Maintaining unit tests coverage through Test-driven Development (TDD) on backend in Python\n→ Provide leadership within engineering department through close collaboration, and code reviews"
+    },
+    {
+      "role": "Software Developer",
+      "org": "Cross Code",
+      "orgUrl": "https://crosscode.dev",
+      "period": "Jul 2021 — Jun 2022",
+      "details": "→ Developed, maintained, & shipped production code for 10+ client & in-house mobile apps\n→ Integrated different ad providers like Admob, Unity ads, AppLovin, etc\n→ Co-authored and published an open-source package, Easy Ads, to combine ads integration for Flutter"
+    }
+  ],
+  "projects": [
+    {
+      "title": "DMS",
+      "desc": "A comprehensive employee management tool that uses geofencing for automated check-ins and live location tracking. It features a role-based dashboard for admins to easily manage companies, employees, and work hours.",
+      "image": "pages/engineering/images/dms.png"
+    },
+    {
+      "title": "Jaldi",
+      "desc": "Jaldi removes the pain of cold calling so your team can focus on what's really important -> Calling More & Closing More. Jaldi allows managers to reduce cold calling admin work by 80%!",
+      "image": "pages/engineering/images/jaldi.png"
+    },
+    {
+      "title": "PlayOn101",
+      "desc": "Playon101 allows sports players of all ages to find someone to practice with on a daily basis. Partnerships with local sports clubs throughout the country enables a sports player to practice with multiple teams in a given week, improving their overall game. Advanced implementations include social sign-in, maps, deep-linking, and push notifications.",
+      "image": "pages/engineering/images/playon101.png"
+    },
+    {
+      "title": "Tatreez",
+      "desc": "A tailoring app for Arabic users. Users can select and order the product based on the customization they want and also save their measurements. Advanced implementations include social sign-in, maps, payments, and push notifications.",
+      "image": "pages/engineering/images/tatreez.png"
+    },
+    {
+      "title": "Meal Planner",
+      "desc": "A meal app that suggests a user a meal plan for a whole day for 4 weeks. Users can track progress and make a shopping list inside the app from the suggested meals. Advanced implementations include push notification reminders.",
+      "image": "pages/engineering/images/meal_planner.png"
+    }
+  ]
+}

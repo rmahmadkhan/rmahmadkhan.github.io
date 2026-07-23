@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+  // GitHub Pages has no server-side routing, so a direct load or refresh of a
+  // path like /engineering hits this 404 page. Encode the requested path into
+  // a query string and redirect to the real index.html, which restores it via
+  // history.replaceState before rendering (see the inline script in index.html).
+  var path = location.pathname + location.search + location.hash;
+  location.replace('/?redirect=' + encodeURIComponent(path));
+</script>
+</head>
+<body></body>
+</html>

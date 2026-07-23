@@ -1,0 +1,36 @@
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-top">
+      <div class="hero-copy">
+        <div class="hero-greeting" data-text="greeting"></div>
+        <h1 class="hero-name" data-text="name"></h1>
+        <h2 class="hero-title role-rotator">
+          <template data-repeat="roles">
+            <span class="role-rotator-item" data-text="."></span>
+          </template>
+        </h2>
+        <p class="hero-desc" data-text="description"></p>
+        <div class="hero-cta-row">
+          <a class="cta-btn cta-btn-outline" data-attr-href="linkedinUrl" target="_blank">Chat on LinkedIn</a>
+        </div>
+      </div>
+      <img class="hero-avatar" data-attr-src="avatar" data-attr-alt="name">
+    </div>
+
+    <h3 class="persona-heading">Pick a side of me to explore</h3>
+    <div class="persona-grid">
+      <template data-repeat="personas">
+        <button class="persona-card" data-attr-data-page="page">
+          <span class="persona-emoji" data-text="emoji"></span>
+          <span class="persona-label" data-text="label"></span>
+          <span class="persona-tagline" data-text="tagline"></span>
+        </button>
+      </template>
+    </div>
+
+    <div class="contact-block">
+      <h3 class="contact-heading">Get in touch!</h3>
+      <div class="social-row" data-slot="socials"></div>
+    </div>
+  </div>
+</section>

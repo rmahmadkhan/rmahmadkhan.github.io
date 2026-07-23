@@ -1,0 +1,71 @@
+{
+  "title": "Research",
+  "description": "My research lies at the intersection of AI for Software Engineering, Mining Software Repositories, and Human-Centered AI — investigating agentic software engineering and the human aspects of LLMs in the loop.",
+  "topics": [
+    "AI4SE",
+    "Empirical Software Engineering",
+    "Human-Centered AI",
+    "Agentic Systems",
+    "LLMs",
+    "Mining Software Repositories",
+    "Responsible AI"
+  ],
+  "positions": [
+    {
+      "role": "Research Assistant",
+      "org": "SFG Lab, Lahore University of Management Sciences",
+      "orgUrl": "https://lums.edu.pk/",
+      "period": "Sep 2025 — Present",
+      "details": "→ Conducting empirical studies on agentic software engineering, including agent adoption/failure analysis and LLM-based requirements evaluation.\n→ Did a study on AI coding agent adoption in open-source mobile development, accepted at MSR '26 (an A rank conference)."
+    }
+  ],
+  "education": [
+    {
+      "role": "BS in Computer Science",
+      "org": "University of the Punjab",
+      "orgUrl": "https://www.pu.edu.pk/",
+      "period": "2018 — 2022",
+      "details": "Thesis: Maveshi (Digitizing local cattle farms)\nConducted qualitative user research with local cattle farmers to identify key pain points in their traditional, paper-based farm management. The findings from these interviews directly informed the development of Maveshi, a mobile application designed to digitize cattle records. The platform facilitates the management of animal profiles, milking records, and lineage, aiming to improve data accuracy and operational efficiency for farmers by replacing conventional paper diaries."
+    }
+  ],
+  "publications": [
+    {
+      "title": "On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+      "authors": "Muhammad Ahmad Khan, Hasnain Ali, Muneeb Rana, Muhammad Saqib Ilyas, Abdul Ali Bangash",
+      "summary": "The first category-level empirical study of AI-agent-generated code in open-source mobile development, analyzing 2,901 AI-authored pull requests across 193 Android and iOS repositories. We find Android receives more AI-authored PRs with higher acceptance rates than iOS, routine tasks (features, fixes, UI) succeed more often than structural changes (refactors, builds), and PR resolution time improved through mid-2025 before declining.",
+      "venue": "IEEE 23rd International Mining Software Repositories Conference (MSR '26), Rio de Janeiro, Brazil",
+      "date": "2026",
+      "link": "https://arxiv.org/abs/2602.12144"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Why do software agents fail? A study on agentic trajectories",
+      "desc": "An open benchmark evaluating multi-step coding agents on real-world repositories.",
+      "status": "In progress",
+      "date": "2026"
+    },
+    {
+      "title": "AI Delegation in Grades 8-12: How School Type and Teacher Experience Shape Trust Calibration",
+      "desc": "A study on how school type and teacher experience influence trust calibration in AI tasks delegation.",
+      "status": "Completed",
+      "date": "2026"
+    },
+    {
+      "title": "Leveraging LLMs to Judge Student-Authored Software Requirements and User Stories",
+      "desc": "A study on the reliability of LLMs in evaluating student-authored software requirements and user stories.",
+      "status": "Completed",
+      "date": "2026"
+    },
+    {
+      "title": "LLM-based Fake News Detection in Urdu",
+      "desc": "A study on the effectiveness of LLMs in detecting fake news in the Urdu language.",
+      "status": "Completed",
+      "date": "2025"
+    }
+  ],
+  "conferences": [
+    "ICSE 2026",
+    "MSR 2026"
+  ]
+}

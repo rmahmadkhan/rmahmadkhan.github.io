@@ -1,0 +1,64 @@
+{
+  "brand": "Muhammad Ahmad Khan",
+  "email": "rmahmadkhan9@gmail.com",
+  "landingPage": "home",
+  "pages": [
+    {
+      "id": "home",
+      "navLabel": "Home",
+      "showInNav": false
+    },
+    {
+      "id": "engineering",
+      "navLabel": "Engineering",
+      "showInNav": true
+    },
+    {
+      "id": "research",
+      "navLabel": "Research",
+      "showInNav": true
+    },
+    {
+      "id": "community",
+      "navLabel": "Community",
+      "showInNav": true
+    },
+    {
+      "id": "life",
+      "navLabel": "Life",
+      "showInNav": true
+    }
+  ],
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/rmahmadkhan",
+      "icon": "linkedin"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/rmahmadkhan",
+      "icon": "x"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/rmahmadkhan",
+      "icon": "instagram"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/rmahmadkhan",
+      "icon": "github"
+    },
+    {
+      "label": "Stack Overflow",
+      "url": "https://stackoverflow.com/users/10482516/ahmad",
+      "icon": "stackoverflow"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:rmahmadkhan9@gmail.com",
+      "icon": "email"
+    }
+  ]
+}

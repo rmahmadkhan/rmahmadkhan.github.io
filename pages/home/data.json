@@ -1,0 +1,42 @@
+{
+  "greeting": "Hi, I am",
+  "name": "Muhammad Ahmad Khan 👋",
+  "roles": [
+    "Software Engineer",
+    "AI Researcher",
+    "Tech Evangelist",
+    "Community Builder",
+    "Runner",
+    "Traveler",
+    "Content Creator"
+  ],
+  "description": "I bridge the gap between high-performance systems, empirical research, and ecosystem leadership.",
+  "linkedinUrl": "https://linkedin.com/in/rmahmadkhan",
+  "avatar": "avatar.jpg",
+  "personas": [
+    {
+      "page": "engineering",
+      "emoji": "🧑‍💻",
+      "label": "Engineering",
+      "tagline": "Skills, projects & experience."
+    },
+    {
+      "page": "research",
+      "emoji": "🎓",
+      "label": "Research",
+      "tagline": "Education & publications."
+    },
+    {
+      "page": "community",
+      "emoji": "🥑",
+      "label": "Community",
+      "tagline": "Talks, programs & content."
+    },
+    {
+      "page": "life",
+      "emoji": "🌍",
+      "label": "Life",
+      "tagline": "Travel, running & hobbies."
+    }
+  ]
+}
