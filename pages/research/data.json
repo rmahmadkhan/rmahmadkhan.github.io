@@ -33,9 +33,9 @@
       "title": "On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
       "authors": "Muhammad Ahmad Khan, Hasnain Ali, Muneeb Rana, Muhammad Saqib Ilyas, Abdul Ali Bangash",
       "summary": "The first category-level empirical study of AI-agent-generated code in open-source mobile development, analyzing 2,901 AI-authored pull requests across 193 Android and iOS repositories. We find Android receives more AI-authored PRs with higher acceptance rates than iOS, routine tasks (features, fixes, UI) succeed more often than structural changes (refactors, builds), and PR resolution time improved through mid-2025 before declining.",
-      "venue": "IEEE 23rd International Mining Software Repositories Conference (MSR '26), Rio de Janeiro, Brazil",
+      "venue": "MSR '26: Proceedings of the 23rd International Conference on Mining Software Repositories, Rio de Janeiro, Brazil",
       "date": "2026",
-      "link": "https://arxiv.org/abs/2602.12144"
+      "link": "https://doi.org/10.1145/3793302.3793596"
     }
   ],
   "projects": [
